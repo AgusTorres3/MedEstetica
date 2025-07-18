@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Seccion Header */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: grey;
+  border-bottom: 1px solid #eaeaea;
+  width: auto;
+}
+header .logo img{
+    height: 150px;
+    width: auto;
+}
+header nav a{
+    padding-right: 10px;
+    font-size: larger;
+    color: black;
+}
+
+/* seccion tratamientos */
+
+main{
+    background-color:#f8f9fa;
+    padding-left: 100px;
+}
+
+/* Tratamiento1 */
+main .tratamiento1 div h1{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .tratamiento1 div{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .tratamiento1 div p{
+    font-size: larger;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+    
+}
+
+main .tratamiento1 div img{
+    height: 200px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: 300px;
+}
+
+/* tratamiento2 */
+main .tratamiento2 div h1{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .tratamiento2 div{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .tratamiento2 div p{
+    font-size: larger;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+main .tratamiento2 div img{
+    height: 200px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+/* tratamiento3 */
+main .tratamiento3 div h1{
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+main .tratamiento3 div{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .tratamiento3 div p{
+    font-size: larger;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+
+main .tratamiento3 div img{
+    height: 200px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+/* tratamiento4 */
+main .tratamiento4 div h1{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .tratamiento4 div{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .tratamiento4 div p{
+    font-size: larger;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+
+main .tratamiento4 div img{
+    height: 200px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: 450px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/* seccion informacion */
+
+.info-section {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  padding: 2rem;
+  background: #fafafa;
+  margin-top: 3rem;
+}
+.info-section .info-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.info-section .info-card h3 {
+  margin-bottom: 0.5rem;
+}
+.info-section .info-card p, .info-section .info-card li {
+  font-size: 0.95rem;
+  color: #333;
+}
+.info-section .info-card a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+.info-section .info-card a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: grey;
+  color: white;
+  font-size: 0.9rem;
+}
